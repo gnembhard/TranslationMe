@@ -1,4 +1,4 @@
-# Step 2: Product Specification
+# Product Specification
 
 ---
 
@@ -66,3 +66,8 @@
 **Settings Screen →**
 - Back to Dashboard  
 - Back to Car Profile
+
+# Wireframe
+<img width="1920" height="1080" alt="Final Project Wireframe" src="https://github.com/user-attachments/assets/28c5ce6a-2d57-4e35-b7dd-110a93b8a7c3" />
+
+
