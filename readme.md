@@ -44,7 +44,6 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 **Optional (Nice-to-have Stories)**  
 - User can share maintenance logs with a mechanic  
 - User can attach photos of car issues or parts  
-- User can sync data across multiple devices  
 - User can set custom service intervals  
 
 ---
@@ -98,7 +97,6 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 | lastService   | Date   | date of last maintenance                      |
 | nextService   | Date   | date of upcoming maintenance                  |
 | serviceNotes  | String | notes for maintenance or issues               |
-| ...           | ...    | ...                                           |
 
 ### Networking
 **Network Requests by Screen:**  
@@ -110,11 +108,5 @@ CarCare+ is an app designed to help users manage their car maintenance and care 
 - [GET] /maintenance - fetch maintenance history  
 - [POST] /maintenance - log a new maintenance record  
 
-**Basic Parse Request Snippet:**  
-```javascript
-// Example Parse GET request
-const query = new Parse.Query("Vehicle");
-query.find().then((results) => {
-  console.log(results);
-});
+
 
